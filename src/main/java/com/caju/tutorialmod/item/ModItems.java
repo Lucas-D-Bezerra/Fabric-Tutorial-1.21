@@ -12,7 +12,7 @@ public class ModItems {
 
     //criar item
     public static final Item MALACHITE_CRYSTAL= registerItem("malachite_crystal", new Item(new Item.Settings()));
-
+    public static final Item RAW_MALACHITE_CRYSTAL= registerItem("raw_malachite_crystal", new Item(new Item.Settings()));
 
     //Funcoes auxiliares para registrar os items
     private static Item registerItem(String name, Item item){
@@ -25,7 +25,9 @@ public class ModItems {
         //-----------------------------------------------------
         //adicionar o item ao inventario no criativo em um grupo de items
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(enties-> {
+            //sao adicionados individualmente
             enties.add(MALACHITE_CRYSTAL);
+            enties.add(RAW_MALACHITE_CRYSTAL);
         });
     }
 

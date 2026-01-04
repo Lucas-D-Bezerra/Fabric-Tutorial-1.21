@@ -1,5 +1,6 @@
 package com.caju.tutorialmod;
 
+import com.caju.tutorialmod.block.ModBlocks;
 import com.caju.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,7 +21,10 @@ public class TutorialMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+        //------------------------------------
+        //metodos a serem executados quando iniciar
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 
 
 	}

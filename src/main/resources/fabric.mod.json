@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorialmod",
+	"version": "${version}",
+	"name": "Tutorial Mod",
+	"description": "Made following a tutorail to learn how to mod and train java",
+	"authors": [
+		"L.D.Bezerra"
+	],
+	"contact": {
+		"homepage": "N/A",
+		"sources": "To-Do"
+	},
+	"license": "CC0-1.0 (???)",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.caju.tutorialmod.TutorialMod"
+		],
+		"fabric-datagen": [
+			"com.caju.tutorialmod.TutorialModDataGenerator"
+		],
+        "client": [
+          "com.caju.tutorialmod.TutorialModClient"
+        ]
+	},
+	"mixins": [
+		"tutorialmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

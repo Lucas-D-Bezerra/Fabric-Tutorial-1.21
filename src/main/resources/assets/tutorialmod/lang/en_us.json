@@ -3,5 +3,7 @@
   "item.tutorialmod.raw_malachite_crystal": "Raw Malachite Crystal",
 
   "block.tutorialmod.malachite_crystal_block": "Malachite Crystal Block",
-  "block.tutorialmod.raw_malachite_crystal_block": "Raw Malachite Crystal Block"
+  "block.tutorialmod.raw_malachite_crystal_block": "Raw Malachite Crystal Block",
+
+  "itemgroup.tutorialmod.malachite_tab": "Malachite Items"
 }

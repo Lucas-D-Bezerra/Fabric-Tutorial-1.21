@@ -18,6 +18,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block MALACHITE_CRYSTAL_BLOCK= registerBlock("malachite_crystal_block",
+           //2x shift on "Block "to see vanilla blocks
             new Block(AbstractBlock.Settings.create()
                     .strength(1f)
                     .requiresTool()
